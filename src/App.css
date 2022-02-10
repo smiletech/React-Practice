@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: rgb(148, 75, 114);
+}
+* {
+  background-color: rgb(148, 75, 114);
+}
+h1 {
+  color: gold;
+  background-color: rgb(148, 75, 114);
+}
+.btn {
+  margin: 45px;
+  cursor: pointer;
+  background-color: rgba(202, 176, 30, 0.897);
+  width: 150px;
+  height: 25px;
+  color: rgb(148, 75, 114);
+  font-weight: bold;
+}
+.container {
+  margin: 100px auto;
+  max-width: 500px;
+  height: 300px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 5px 12px grey;
+}
+.num {
+  display: flex;
+  background-color: white;
+  padding-bottom: 5px;
+}
+h3 {
+  background-color: white;
+}
+.sum {
+  margin: 10px auto;
+  max-width: 150px;
+  height: 50px;
+  background-color: honeydew;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 7px 6px 4px 5px grey;
+}
+.btnc,
+.xyz {
+  background-color: white;
+}
+.num1 {
+  margin: 10px auto;
+  min-width: 50px;
+  height: 50px;
+  background-color: honeydew;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 5px 5px grey;
+}
+.numx {
+  margin: 5px auto;
+  min-width: 150px;
+  height: 50px;
+  background-color: honeydew;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 2px 2px grey;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
